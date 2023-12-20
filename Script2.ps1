@@ -1,6 +1,6 @@
 $Tenant = "ithaca.edu"
-$clientid = "a9dca64b-29d0-4ccc-8aca-e2875431f732"
-$clientSecret = "dCf8Q~1jWKDDgzNoY.Z9qYv4WfhxIF5lx6TVWa7~"
+$clientid = " Replace "
+$clientSecret = " Replace "
 $grouptag = $args[0]
 $teamsURI = ''
 $alerts = $false
