@@ -1,3 +1,11 @@
+Main goal to use this script (after modification) to check if a device is enrolled already and check the group tag assigned to the device and match to the $grouptag = $args[0] set in Script2.
+If the device is found and the group tag do not match to set the group tag.
+If the device is not found run the rest of this script as is** Maybe..
+
+
+
+Old README
+
 This is a fork of the https://github.com/windows-admins/Intune/tree/main/TaskSequenceFiles repo.
 
 Modifications made were to make the script wait for the profile assignment in Intune to complete and use a parameter for the group tag instead of hardcoding it. This way you can configure the group tag for each task sequence without having to edit the script each time.
